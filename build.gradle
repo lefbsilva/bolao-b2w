@@ -60,16 +60,7 @@ dependencies {
 	testRuntime "org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1"
 	testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
 
-	if (Environment.current == Environment.PRODUCTION) {
-		println "===================================="
-		println "Produção"
-		println "===================================="
-		compile "com.github.jsimone:webapp-runner:8.0.30.2"
-	} else {
-		println "===================================="
-		println "Outro Environment"
-		println "===================================="
-	}
+	compile "com.github.jsimone:webapp-runner:8.0.30.2"
 }
 
 bootRun {

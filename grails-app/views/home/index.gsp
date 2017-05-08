@@ -3,7 +3,7 @@
 	<head>
 		<title>Fla Maraca</title>
 
-		<asset:link rel="icon" type="image/x-ico" href="favicon.ico" />
+		<asset:link rel="icon" type="image/x-ico" href="fla-ico.ico" />
 		<asset:stylesheet href="bootstrap.css" />
 	</head>
 
@@ -40,7 +40,7 @@
 							</div> -->
 
 							<div style="margin-top:10px" class="form-group">
-								<div class="col-sm-12 controls">
+								<div class="col-sm-14 controls">
 									<button type="submit" class="btn btn-lg btn-block login-button" style="background-color: #000000; color: #ffffff;">Login</button>
 								</div>
 							</div>

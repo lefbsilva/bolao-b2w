@@ -68,8 +68,9 @@ task wrapper(type: Wrapper) {
 	gradleVersion = gradleWrapperVersion
 }
 
-task stage(dependsOn: ["build", "clean"])
-build.mustRunAfter clean
+task stage() {
+	dependsOn clean, war
+}
 
 tasks.stage.doLast() {
 	delete fileTree(dir: "build/distributions")
